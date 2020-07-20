@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="generator" content="SuperHi">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nostalgic for 1995-2004</title>
+	<link rel="icon" href="bomb.svg">
+	<meta property="og:title" content="Nostalgic for 1995-2004">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="___CURRENT_URL___">
+	<meta property="og:description" content="Wishing for simpler times">
+	<meta property="og:image" content="___ROOT_HOST___/nostalgia-glitch.png">
+	<link rel="stylesheet" href="/styles/base.css">
+	<link rel="stylesheet" href="/styles/fonts.css">
+	<link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+	<script src="/superhi.js"></script>
+	<audio src="/assets/windows95.mp3" autoplay="autoplay"></audio>
+
+	<header>
+		<!--   <h1>Random Artifacts of my Youth</h1> -->
+		<p>
+			Click on the screen to see what's in my nostalgia glitch.
+		</p>
+	</header>
+
+	<canvas id="drawer"></canvas>
+
+	<div class="links">
+		<a href="#" class="toys"> Toys</a>
+		<a href="#" class="about">About this site</a>
+	</div>
+
+	<div class="about-modal d-none">
+		<p class="close">X</p>
+		<h1>Nostalgia Glitch</h1>
+		<p>
+			This glitchin' nostalgia site was inspired by
+			<a href="https://www.superhi.com/video/mouse-move-glitch-collage-using-html-canvas">this tutorial</a>
+			and simpler times.
+		</p>
+		<h1>
+			Tools
+		</h1>
+		<p>
+			I built this site using CSS, Javascript and the <a href="https://blotter.js.org/#">Blotter.js library</a>.
+		</p>
+	</div>
+
+	<div class="toys-modal d-none">
+		<p class="close-toys">X</p>
+		<!--   <h1>The toys</h1> -->
+		<p class="subtitle">
+			In order of click appearance
+		</p>
+		<div class="mine">
+			<h2>Minesweeper (1995)</h2>
+			<p>22 years later and I still don't understand this game.</p>
+		</div>
+
+		<div class="tama">
+			<h2>Tamagotchi (1996)</h2>
+			<p>This annoying little virtual pet got me kicked out of dozens on classrooms.</p>
+		</div>
+
+		<div class="furby">
+			<h2>Furby Baby (1999)</h2>
+			<p>My first toy from FAO Schwartz in NYC and the most hated family member in '99.</p>
+		</div>
+
+		<div class="gameboy">
+			<h2>Gameboy Color (1998)</h2>
+			<p>So many hours wasted on this thing.</p>
+		</div>
+
+		<div class="msn">
+			<h2>MSN Messenger (1999)</h2>
+			<p>I techinically did not start using this until 2002.</p>
+		</div>
+
+		<div class="pokedex">
+			<h2>Pokedex (1999)</h2>
+			<p>Yes, I was one of those kids who walked around with a Pokedex.</p>
+		</div>
+
+		<div class="pokecard">
+			<h2>Pokemon Cards (1996)</h2>
+			<p>Yes, I was one of those kids who walked around with a binder full of Pokemon cards.</p>
+		</div>
+
+		<div class="rct">
+			<h2>Rollercoaster Tycoon (1999)</h2>
+			<p>So many failed parks.</p>
+		</div>
+
+		<div class="snes">
+			<h2>Super Nintendo (1990)</h2>
+			<p>One of my favorite consoles to this day.</p>
+		</div>
+
+		<div class="icq">
+			<h2>ICQ (1996)</h2>
+			<p>The OG instant messenger and the reason I love flowers.</p>
+		</div>
+	</div>
+
+	<button id="clear">
+		Clear the glitch
+	</button>
+
+	<footer>
+		<p> <img src="assets/paint.svg" class="paint"> Made by <a href="https://twitter.com/lauvpadilla">@lauvpadilla</a>
+		</p>
+	</footer>
+
+	<script src="js/blotter.min.js"></script>
+	<script src="js/rolling-distort-material.js"></script>
+
+	<script>
+		document.fonts.ready.then(function () {
+			if (window.innerWidth > 800) {
+				var text = new Blotter.Text('Nostalgic for 1995-2004.', {
+					family: "'Violet Sans'",
+					size: 72,
+					fill: '#111118'
+				})
+			} else {
+				var text = new Blotter.Text('Nostalgic for 1995-2004.', {
+					family: "'Violet Sans'",
+					size: 25,
+					fill: '#111118'
+				})
+			}
+
+			var material = new Blotter.RollingDistortMaterial()
+			material.uniforms.uSpeed.value = 0.25
+			var blotter = new Blotter(material, {
+				texts: text
+			})
+
+			var scope = blotter.forText(text)
+
+			scope.appendTo(document.body)
+		})
+	</script>
+
+	<script src="/js/drawer.js"></script>
+	<script src="js/modal.js"></script>
+
+</body>
+
+</html>

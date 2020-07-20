@@ -1,0 +1,213 @@
+body {
+  font-family: "Violet Sans";
+  font-size: 21px;
+  line-height: 1.25;
+
+  background-color: #e5ffa5;
+  color: #111118;
+  /*   margin: 40px auto 40px auto;
+  padding: 20px; */
+  cursor: url("/assets/mousetrail.svg"), auto;
+}
+
+a {
+  color: inherit;
+}
+
+canvas {
+  vertical-align: bottom;
+}
+
+#drawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+header {
+  position: fixed;
+  top: 130px;
+  left: 50px;
+  z-index: 1;
+  mix-blend-mode: difference;
+}
+
+header p {
+  margin-bottom: 20px;
+  font-family: "Jet Brains Mono";
+  font-size: 24px;
+  color: #f012be;
+}
+
+div.links {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+}
+
+div.links a {
+  margin-left: 10px;
+  padding: 10px 10px;
+}
+
+div.links a:hover {
+  background-color: #111118;
+  color: #e5ffa5;
+  font-style: italic;
+}
+
+.d-none {
+  display: none;
+}
+
+div.about-modal {
+  background-color: #fff;
+  border: 2px solid #111118;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 640px;
+  padding: 25px;
+  box-shadow: -14px 13px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 21px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+div.about-modal p:last-child {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.close,
+.close-toys {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 32px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+div.toys-modal {
+  background-color: #fff;
+  border: 2px solid #111118;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 640px;
+  padding: 25px;
+  box-shadow: -14px 13px;
+  overflow: auto;
+}
+
+p.subtitle {
+  font-size: 16px;
+  font-style: italic;
+}
+
+div.toys-modal::-webkit-scrollbar:vertical {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 12px;
+  height: 14px;
+  background-color: black;
+}
+
+.mine {
+  cursor: url(/assets/minesweeper-flag.svg), auto;
+}
+
+.tama {
+  cursor: url(/assets/tamagotchi.svg), auto;
+}
+
+.furby {
+  cursor: url(/assets/baby-furby.svg), auto;
+}
+
+.gameboy {
+  cursor: url(/assets/gameboy.svg), auto;
+}
+
+.msn {
+  cursor: url(/assets/msn-cursor.svg), auto;
+}
+
+.pokedex {
+  cursor: url(/assets/pokedex.svg), auto;
+}
+
+.pokecard {
+  cursor: url(/assets/pokecard.svg), auto;
+}
+
+.rct {
+  cursor: url(/assets/rct.svg), auto;
+}
+
+.snes {
+  cursor: url(/assets/snes.svg), auto;
+}
+
+.icq {
+  cursor: url(/assets/icq.svg), auto;
+}
+
+.b-canvas {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  width: auto;
+  height: 90px;
+}
+
+button {
+  position: fixed;
+  bottom: 30px;
+  left: 40px;
+  font-size: 18px;
+  background-color: #111118;
+  color: #e5ffa5;
+  padding: 10px 15px;
+}
+
+button:hover {
+  color: #111118;
+  background-color: #e5ffa5;
+  border: 1px solid #111118;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  right: 30px;
+  /*   vertical-align: text-bottom; */
+}
+
+footer a:hover {
+  font-style: italic;
+}
+
+footer img.paint {
+  margin-right: 10px;
+  height: 30px;
+  vertical-align: text-bottom;
+}
