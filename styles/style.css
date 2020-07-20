@@ -7,7 +7,8 @@ body {
   color: #111118;
   /*   margin: 40px auto 40px auto;
   padding: 20px; */
-  cursor: url("/assets/mousetrail.svg"), auto;
+  cursor: url("https://lauvpadilla.github.io/nostalgiaglitch//assets/mousetrail.svg"),
+    auto;
 }
 
 a {
@@ -132,43 +133,53 @@ div.toys-modal::-webkit-scrollbar:vertical {
 }
 
 .mine {
-  cursor: url(/assets/minesweeper-flag.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/minesweeper-flag.svg),
+    auto;
 }
 
 .tama {
-  cursor: url(/assets/tamagotchi.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/tamagotchi.svg),
+    auto;
 }
 
 .furby {
-  cursor: url(/assets/baby-furby.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/baby-furby.svg),
+    auto;
 }
 
 .gameboy {
-  cursor: url(/assets/gameboy.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/gameboy.svg),
+    auto;
 }
 
 .msn {
-  cursor: url(/assets/msn-cursor.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/msn-cursor.svg),
+    auto;
 }
 
 .pokedex {
-  cursor: url(/assets/pokedex.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/pokedex.svg),
+    auto;
 }
 
 .pokecard {
-  cursor: url(/assets/pokecard.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/pokecard.svg),
+    auto;
 }
 
 .rct {
-  cursor: url(/assets/rct.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/rct.svg),
+    auto;
 }
 
 .snes {
-  cursor: url(/assets/snes.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/snes.svg),
+    auto;
 }
 
 .icq {
-  cursor: url(/assets/icq.svg), auto;
+  cursor: url(https://lauvpadilla.github.io/nostalgiaglitch//assets/icq.svg),
+    auto;
 }
 
 .b-canvas {
