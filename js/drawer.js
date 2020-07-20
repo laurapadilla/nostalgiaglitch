@@ -19,16 +19,16 @@ let currentY = null;
 
 let i = 0;
 const images = [
-  { src: "/assets/winmine.gif", width: 161, height: 236 },
-  { src: "/assets/tamagotchi.png", width: 250, height: 231 },
-  { src: "/assets/baby-furby.png", width: 242, height: 259 },
-  { src: "/assets/gameboy.png", width: 250, height: 250 },
-  { src: "/assets/msn.png", width: 170, height: 175 },
-  { src: "/assets/pokedex.png", width: 350, height: 288 },
-  { src: "/assets/pokecard.png", width: 214, height: 291 },
-  { src: "/assets/rct.png", width: 250, height: 139 },
-  { src: "/assets/snes.png", width: 383, height: 238 },
-  { src: "/assets/icq.png", width: 180, height: 180 },
+  { src: "assets/winmine.gif", width: 161, height: 236 },
+  { src: "assets/tamagotchi.png", width: 250, height: 231 },
+  { src: "assets/baby-furby.png", width: 242, height: 259 },
+  { src: "assets/gameboy.png", width: 250, height: 250 },
+  { src: "assets/msn.png", width: 170, height: 175 },
+  { src: "assets/pokedex.png", width: 350, height: 288 },
+  { src: "assets/pokecard.png", width: 214, height: 291 },
+  { src: "assets/rct.png", width: 250, height: 139 },
+  { src: "assets/snes.png", width: 383, height: 238 },
+  { src: "assets/icq.png", width: 180, height: 180 },
 ].map((obj) => {
   const image = new Image();
   image.src = obj.src;
