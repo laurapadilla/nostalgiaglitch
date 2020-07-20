@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Compagnon";
-  src: url(fonts/compagnon-medium.woff);
+  src: url(./compagnon-medium.woff);
 }
 
 @font-face {
   font-family: "Violet Sans";
-  src: url(fonts/violetsans-regular.woff);
+  src: url(./violetsans-regular.woff);
 }
 
 @font-face {
   font-family: "Jet Brains Mono";
-  src: url(/fonts/JetBrainsMono-Regular.woff);
+  src: url(./JetBrainsMono-Regular.woff);
 }
