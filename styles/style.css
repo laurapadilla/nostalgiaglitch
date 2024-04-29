@@ -40,6 +40,18 @@ header p {
   color: #f012be;
 }
 
+.containerMobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.containerMobile h1 {
+  text-align: center;
+  font-size: 6vmax;
+}
+
 div.links {
   position: fixed;
   top: 40px;
@@ -210,7 +222,6 @@ footer {
   position: fixed;
   bottom: 0px;
   right: 30px;
-  /*   vertical-align: text-bottom; */
 }
 
 footer a:hover {
@@ -221,4 +232,32 @@ footer img.paint {
   margin-right: 10px;
   height: 30px;
   vertical-align: text-bottom;
+}
+
+@media (max-width: 1024px) {
+  #drawer,
+  header,
+  button#clear {
+    display: none;
+  }
+
+  div.links {
+    top: 80px;
+    left: 0;
+  }
+
+  .b-canvas {
+    left: 20px;
+  }
+
+  footer {
+    left: 20px;
+    right: unset;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerMobile {
+    display: none;
+  }
 }
