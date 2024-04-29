@@ -1,14 +1,11 @@
 body {
-  font-family: "Violet Sans";
+  font-family: "Violet Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 21px;
   line-height: 1.25;
 
   background-color: #e5ffa5;
   color: #111118;
-  /*   margin: 40px auto 40px auto;
-  padding: 20px; */
-  cursor: url("https://lauvpadilla.github.io/nostalgiaglitch/assets/mousetrail.svg"),
-    auto;
+  cursor: url("https://nostalgiaglitch.vercel.app/assets/mousetrail.svg"), auto;
 }
 
 a {
@@ -35,7 +32,7 @@ header {
 
 header p {
   margin-bottom: 20px;
-  font-family: "Jet Brains Mono";
+  font-family: "Jet Brains Mono", monospace;
   font-size: 24px;
   color: #f012be;
 }
